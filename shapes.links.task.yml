@@ -1,0 +1,22 @@
+# Shape routing definition
+shape.settings_tab:
+  route_name: shape.settings
+  title: 'Settings'
+  base_route: shape.settings
+
+entity.shape.canonical:
+  route_name: entity.shape.canonical
+  base_route: entity.shape.canonical
+  title: 'View'
+
+entity.shape.edit_form:
+  route_name: entity.shape.edit_form
+  base_route: entity.shape.canonical
+  title: 'Edit'
+
+entity.shape.delete_form:
+  route_name:  entity.shape.delete_form
+  base_route:  entity.shape.canonical
+  title: Delete
+  weight: 10
+

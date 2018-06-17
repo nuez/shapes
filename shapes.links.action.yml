@@ -1,0 +1,5 @@
+entity.shape.add_form:
+  route_name: entity.shape.add_form
+  title: 'Add Shape'
+  appears_on:
+    - entity.shape.collection

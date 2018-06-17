@@ -1,0 +1,19 @@
+add shape entities:
+  title: 'Create new Shape entities'
+
+administer shape entities:
+  title: 'Administer Shape entities'
+  description: 'Allow to access the administration form to configure Shape entities.'
+  restrict access: true
+
+delete shape entities:
+  title: 'Delete Shape entities'
+
+edit shape entities:
+  title: 'Edit Shape entities'
+
+view published shape entities:
+  title: 'View published Shape entities'
+
+view unpublished shape entities:
+  title: 'View unpublished Shape entities'

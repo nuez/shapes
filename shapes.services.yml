@@ -1,0 +1,8 @@
+services:
+  plugin.manager.shape:
+    class: Drupal\shapes\ShapeManager
+    parent: default_plugin_manager
+  shape.referenceable_plugin_types_subscriber:
+    class: \Drupal\shapes\EventSubscriber\ReferenceablePluginTypesSubscriber
+    tags:
+      - { name: event_subscriber }

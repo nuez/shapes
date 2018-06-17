@@ -1,0 +1,14 @@
+
+# Shape menu items definition
+entity.shape.collection:
+  title: 'Shape list'
+  route_name: entity.shape.collection
+  description: 'List Shape entities'
+  parent: system.admin_structure
+  weight: 100
+
+shape.admin.structure.settings:
+  title: 'Shape settings'
+  description: 'Configure Shape entities'
+  route_name: shape.settings
+  parent: system.admin_structure

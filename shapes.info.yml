@@ -1,0 +1,7 @@
+name: Shapes
+type: module
+description: Generates shapes
+package: Custom
+core: 8.x
+dependencies:
+  - commerce
